@@ -34,12 +34,12 @@
 		"dg/adminer-custom": "^1.8"
 	},
 	"require-dev": {
-		"nette/tester": "^2.0"
+		"nette/tester": "^2.0",
+		"codeception/codeception": "^2.3"
 	},
-	"minimum-stability": "dev",
 	"config": {
 		"platform": {
-			"php": "7.1"
+			"php": "7.2"
 		}
 	}
 }

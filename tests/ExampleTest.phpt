@@ -30,6 +30,7 @@ class ExampleTest extends Tester\TestCase
 	public function testSomething()
 	{
 		Assert::true(true);
+
 	}
 }
 

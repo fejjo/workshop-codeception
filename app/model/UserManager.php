@@ -79,6 +79,11 @@ class UserManager implements Nette\Security\IAuthenticator
 			throw new DuplicateNameException;
 		}
 	}
+
+	public function hasUser(string $username): bool {
+		$this->database->table(self::TABLE_NAME)->count();
+
+	}
 }
 
 
